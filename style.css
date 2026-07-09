@@ -49,6 +49,7 @@ p{
 
 .banner{
     background: #FEF7F2;
+    overflow: hidden;
     padding: 40px 20px 0px;
 }
 
@@ -390,7 +391,6 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* align-items: start; */
 }
 
 .footer-right form button{
@@ -415,4 +415,9 @@ form textarea{
     font-size: 14px;
     font-weight: 300;
     color:#747474;
+}
+
+footer .social{
+    color: #F56E0D;
+    font-size: 20px;
 }
